@@ -187,14 +187,17 @@ label {
       object-fit: cover;
     }
     .name {
-      color: black;
+      color: #fff;
       font-weight: 700;
       display: flex;
       align-items: center;
       height: 19px;
+      span {
+        margin-right: 3px;
+      }
     }
     .username {
-      color: #536471;
+      color: #6e767d;
     }
   }
   &-content {
